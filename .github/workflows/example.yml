@@ -9,7 +9,7 @@ on:
       - main
 env:
   AWS_REGION: ap-northeast-2
-  ECR_REGISTRY: 590394026048.dkr.ecr.ap-northeast-2.amazonaws.com
+  ECR_REGISTRY: 590394026048.dkr.ecr.ap-northeast-2.amazonaws.com/jhm-cicd-dev
   ECR_REPOSITORY: jhm-cicd-dev
   IMAGE_TAG: latest
 jobs:
