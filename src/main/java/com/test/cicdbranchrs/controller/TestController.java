@@ -1,13 +1,12 @@
 package com.test.cicdbranchrs.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
 
-  @RequestMapping(value = "/heath", method = RequestMethod.GET)
+  @GetMapping(value = "/heath")
   public String health() {
     return "success";
   }
